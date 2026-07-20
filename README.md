@@ -35,7 +35,7 @@ It provides standardized data types for metrics such as heart rate, steps, sleep
 
 Apple Health can also work with structured clinical records through Health Records. These records use HL7 FHIR, a standard designed to exchange healthcare information between applications, hospitals, and Electronic Health Record systems.
 
-![img](img/2-AppleHealthDataFlow.png)
+![img](img/2-AppleHealthDataWorkflow.png)
 
 FHIR represents information through reusable resources such as `Patient`, `Observation`, `Condition`, and `MedicationRequest`. In a real implementation, this interoperability could make it easier to connect the pipeline with other healthcare platforms instead of depending only on an isolated XML export.
 
