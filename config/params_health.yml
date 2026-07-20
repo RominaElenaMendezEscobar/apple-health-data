@@ -1,0 +1,36 @@
+threshold_steps_low: 
+  description: Step count threshold for red zone (default 3000).
+  value: 3000
+threshold_steps_mid: 
+  description: Step count threshold for orange zone (default 5000).
+  value: 5000
+threshold_steps_goal: 
+  description: Step count goal line (default 7000).
+  value: 7000
+threshold_speed_goal:
+  description:  Walking speed clinical threshold line (default 4.5).
+  value : 4.5
+threshold_steadiness: 
+  description: Steadiness warning line (default 0.60).
+  value: 0.60
+threshold_spo2_low:
+  description: SpO2 critical threshold (default 95%).
+  value: 95.0
+threshold_spo2: 
+  description: Minimum healthy SpO2 percentage (default 96%).
+  value: 96.0
+threshold_sleep_min:
+  description: Sleep hours for red zone (default 5h).
+  value: 5.0
+threshold_sleep_mid:
+  description: Sleep hours for orange zone (default 6h).
+  value: 6.0
+threshold_sleep_goal: 
+  description:  Sleep hours goal line (default 7h).
+  value: 7.0
+threshold_hrv: 
+  description: Minimum healthy HRV in ms (default 25ms).
+  value: 25.0
+threshold_speed_low:
+  description: Walking speed (km/h) considered critically low (default 3.5).
+  value: 3.5

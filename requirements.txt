@@ -1,0 +1,7 @@
+matplotlib==3.11.0
+pandas==3.0.3
+numpy==2.4.6
+reportlab==5.0.0
+google-genai==2.10.0
+python-dotenv==1.2.2
+PyYAML==6.0.3
